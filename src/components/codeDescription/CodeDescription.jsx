@@ -6,6 +6,11 @@ function CodeDescription() {
         Для interactions тестів: <br /> npm install --save-dev
         @storybook/testing-library @storybook/jest @testing-library/user-event
       </h2>
+      <p>
+        Візуалні тести : <br />
+        npx storybook@latest add @chromatic-com/storybook
+      </p>
+
       <h3>npm run storybook</h3>
       <div>
         📁 XComponent --&gt; <br />
@@ -47,6 +52,11 @@ function CodeDescription() {
             <mark> &#125;</mark>
           </p>
         </div>
+        <div>
+          <p>4/2 Візуалні тести / Робить фото порювнює зміни</p>
+          <p>npx storybook@latest add @chromatic-com/storybook</p>
+        </div>
+
         <div>
           <p> 📄 XComponent.stories.tsx</p>
 
@@ -176,6 +186,10 @@ function CodeDescription() {
           </a>
           <a href="https://storybook.js.org/docs/writing-stories/play-function">
             play/ шляхи взаємодії
+          </a>
+          <br />
+          <a href="https://www.chromatic.com/docs/visual-tests-addon/">
+            chromatic DOC/ Візуальні тести/ Зрівняти фото
           </a>
         </div>
       </div>

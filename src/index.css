@@ -77,8 +77,9 @@ button:focus-visible {
   box-shadow: -2px -2px 4px #fdf4f4, 3px 3px 6px #00000079,
     inset 10px 10px 10px #fff, inset -10px -10px 10px #0000000a;
   border-radius: 10px;
-
+  max-width: 500px;
   padding: 10px;
+  margin: 0 auto;
 }
 .form label {
   width: 100%;
@@ -136,6 +137,28 @@ button:focus-visible {
   margin-bottom: 10px;
   border-radius: 5px;
 }
+
+.btnLink {
+  width: 50%;
+  padding: 1em 2em;
+  border-radius: 7px;
+  box-shadow: -2px -2px 3px #fff, 2px 2px 4px #999,
+    inset 10px 10px 10px #ffffff77, inset -10px -10px 10px #9999993b;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: #5379ea;
+  background-color: #b0b0b979;
+  transition: 0.3s;
+}
+.btnLink:hover {
+  background-color: #b0b0b912;
+}
+
 @media (max-width: 738px) {
   .storybookRule {
     display: flex;

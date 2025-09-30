@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "types": ["cypress", "node"],
+    "isolatedModules": true,
+    "allowJs": true
+  },
+  "include": [
+    "e2e/**/*.{js,jsx,ts,tsx}",
+    "support/**/*.{js,jsx,ts,tsx}",
+    "fixtures/**/*.{js,jsx,ts,tsx}"
+  ]
+}

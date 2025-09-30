@@ -2,6 +2,7 @@ import { DemoControlsComponent } from "./shared/DemoControlsComponent/DemoContro
 import "./App.css";
 import RenderWithState from "./shared/DemoForm/RenderWithState.types";
 import CodeDescription from "./components/codeDescription/CodeDescription";
+import CypressTestComponents from "./shared/CypressTestComponents/CypressTestComponents";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         tags={["tag1", "tag2"]}
       />
       <RenderWithState />
+      <CypressTestComponents />
     </div>
   );
 }

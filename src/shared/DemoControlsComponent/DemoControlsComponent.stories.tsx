@@ -49,7 +49,7 @@ export const Playground: Story = {
 
 export const SecondaryVariant: Story = {
   args: {
-    text: "Secondary Variant",
+    text: "Secondary Variant !!!",
     isActive: false,
     count: 5,
     rangeValue: 20,
