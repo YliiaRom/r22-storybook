@@ -3,7 +3,8 @@ import "./App.css";
 import RenderWithState from "./shared/DemoForm/RenderWithState.types";
 import CodeDescription from "./components/codeDescription/CodeDescription";
 import CypressTestComponents from "./shared/CypressTestComponents/CypressTestComponents";
-
+import CypressFormTest01 from "./shared/CypressComponents/CypressFormTest01";
+import CypressListComponents from "./shared/CypressComponents/CypressListComponents";
 function App() {
   return (
     <div>
@@ -22,6 +23,9 @@ function App() {
       />
       <RenderWithState />
       <CypressTestComponents />
+      <h2>Practice</h2>
+      <CypressFormTest01 />
+      <CypressListComponents />
     </div>
   );
 }

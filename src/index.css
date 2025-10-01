@@ -69,6 +69,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+ul,
+ol {
+  list-style-type: none;
+}
 .form {
   display: flex;
   justify-content: start;
@@ -158,7 +162,97 @@ button:focus-visible {
 .btnLink:hover {
   background-color: #b0b0b912;
 }
+/* ----------------------ul */
+.userFakerList {
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 10px;
 
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.userCard {
+  max-width: 300px;
+
+  padding: 10px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: -2px -2px 4px #e8e4e47b, 2px 2px 4px #00000047,
+    inset 10px 10px 10px #ffffff9a;
+  word-wrap: break-word;
+
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #dddde132;
+  gap: 10px;
+}
+
+.btnClick {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  /* background-color: rgb(43, 164, 244);
+  background-color: rgb(74, 128, 163); */
+  background: linear-gradient(0deg, #99999971, #ffffff28, #99999982);
+  border-radius: 10px;
+  color: #484747;
+  color: rgb(43, 164, 244);
+
+  box-shadow: 1px 5px 2px #000, 0px 3px 0px #000000;
+  transition: 0.3s;
+  padding: 1em 2.2em;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.btnClick:hover {
+  box-shadow: none;
+  box-shadow: 0px 3px 0px #000000e4;
+  background-color: rgb(43, 164, 244);
+
+  color: #0410f5;
+  color: #f7f8fa;
+  outline: none;
+  border-color: transparent;
+  border: 1px solid #999;
+}
+
+/* --------sectionWrapper */
+.sectionWrapper {
+  padding: 30px;
+  padding-bottom: 50px;
+  margin: 20px auto;
+  border: 15px solid #99999939;
+  border-radius: 999px;
+  /* border-radius: 50px; */
+  box-shadow: inset 2px 10px 2px #0000000d, inset 10px 10px 10px #44424246,
+    inset -10px -10px 10px #fff, inset 30px 30px 30px #e6dede52,
+    10px 10px 2px rgb(43, 164, 244), 15px 15px 7px #000000;
+  /* border-bottom: 15px solid #0722721e;
+  border-right: 15px solid #3061f31f; */
+  overflow: hidden;
+}
+input {
+  padding: 1em 2em;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+.dataUser {
+  border: 1px solid #999;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
 @media (max-width: 738px) {
   .storybookRule {
     display: flex;

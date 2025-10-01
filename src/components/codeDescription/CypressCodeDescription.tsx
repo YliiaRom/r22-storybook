@@ -1,13 +1,6 @@
 function CypressCodeDescription() {
   return (
     <>
-      <div>
-        📁 XComponent --&gt; <br />
-        📄 XComponent.tsx <br />
-        📄 XComponent.types.ts <br />
-        📄 XComponent.stories.tsx <br />
-      </div>
-
       <div className="storybookRule">
         <div>
           <p>npm install cypress --save-dev</p>
@@ -404,6 +397,12 @@ function CypressCodeDescription() {
               best-practices
             </a>
             <a
+              href="https://docs.cypress.io/api/commands/visitk"
+              target="_blank"
+            >
+              visit / beforeEach(() =&gt; &#123;...&#125;
+            </a>
+            <a
               href="https://docs.cypress.io/api/commands/click"
               target="_blank"
             >
@@ -411,6 +410,12 @@ function CypressCodeDescription() {
             </a>
             <a href="https://docs.cypress.io/api/commands/type" target="_blank">
               get / type / should
+            </a>
+            <a
+              href="https://docs.cypress.io/api/commands/should"
+              target="_blank"
+            >
+              should/ стан
             </a>
             <a
               href="https://docs.cypress.io/api/commands/clear"
